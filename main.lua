@@ -458,7 +458,7 @@ end
 function draw_indicadors()
   love.graphics.setColor(0,0,0,255)
   if jugador.timeleft < 0 and current_level ~= 3 then
-    love.graphics.printf("PRÔXIM NIVELL EN... "..string.format("%.0f",5-math.abs(jugador.timeleft)),0,514-8,800,"center")      
+    love.graphics.printf("PRÒXIM NIVELL EN... "..string.format("%.0f",5-math.abs(jugador.timeleft)),0,514-8,800,"center")      
   else
     love.graphics.printf("NIVELL "..current_level,0,514-8,800,"center")
   end
