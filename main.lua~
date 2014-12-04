@@ -537,7 +537,7 @@ function love.keypressed(key)
     end
 
   elseif key == "p" then
-    love.window.setFullscreen((not love.window.getFullscreen( )), "normal")
+    love.window.setFullscreen((not love.window.getFullscreen( )), "desktop")
 
   elseif key == "w" then
     key_pressed.w = true
